@@ -18,3 +18,11 @@ push: `git push`
 切换分支：`git checkout [name]`
 
 
+------------
+```
+git branch tree
+git checkout tree
+git add *
+git commit -m ''
+git push --set-upstream origin tree  //提交远程不存在的分支
+```
