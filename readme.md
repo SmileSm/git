@@ -16,7 +16,7 @@ push: `git push`
 查看远程分支：`git branch -r`
 创建本地分支：`git branch [name]` ----注意新分支创建后不会自动切换为当前分支
 切换分支：`git checkout [name]`
-
+合并分支：$ git merge [name] ----将名称为[name]的分支与当前分支合并
 
 ------------
 ```
