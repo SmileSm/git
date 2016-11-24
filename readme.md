@@ -23,6 +23,6 @@ push: `git push`
 git branch tree
 git checkout tree
 git add *
-git commit -m ''
+git commit -m '' //单引号内不能为空，否则无法commit
 git push --set-upstream origin tree  //提交远程不存在的分支
 ```
